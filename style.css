@@ -19,7 +19,7 @@
     
 }
 
-.nav-flex{
+nav{
     display: flex;
     justify-content: left;
     align-items: left;
@@ -28,7 +28,7 @@
     top: 0;
 }
 
-.nav-flex div i{
+nav div i{
     font-size: 30px;
     color: white;
     font-weight: lighter;
