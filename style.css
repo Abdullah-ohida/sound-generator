@@ -24,11 +24,11 @@ nav{
     justify-content: left;
     align-items: left;
     padding: 1em ;
-    position: fixed;
-    top: 0;
+    /* position: fixed;
+    top: 0; */
 }
 
-nav div i{
+nav div a i{
     font-size: 30px;
     color: white;
     font-weight: lighter;
