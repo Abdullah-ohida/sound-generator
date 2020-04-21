@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    text-decoration: none;
 }
 
 .container{
@@ -18,10 +19,32 @@
     
 }
 
+.nav-flex{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 1em ;
+    position: fixed;
+    top: 0;
+}
+
+.nav-flex div i{
+    font-size: 30px;
+    color: white;
+    font-weight: lighter;
+}
+
+.logo{
+    font-family: monospace;
+    font-size: 25px;
+    color: white;
+    font-weight: 540;
+}
+
 header{
     text-align: center;
     color:  #bb950c;
-    padding: 2em 0;
+    padding: 5em 0;
 }
 
 header h1{
@@ -38,7 +61,7 @@ header p{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 20% 0;
+    padding: 10% 0;
     flex-wrap: wrap;
 }
 
